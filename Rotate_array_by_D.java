@@ -1,6 +1,7 @@
 import java.util.ArrayList;
+import java.util.List;
 
-public class Solution {
+public class Rotate_array_by_D{
 	public static ArrayList<Integer> rotateArray(ArrayList<Integer> arr, int k) {
         // Write your code here.
         if(arr.size()==0 || k<=0)
